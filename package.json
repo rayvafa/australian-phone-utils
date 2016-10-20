@@ -1,0 +1,40 @@
+{
+  "name": "australian-phone-utils",
+  "version": "0.0.0",
+  "description": "Parsing, validating and formatting Australian phone numbers",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "WEBPACK_ENV=build webpack",
+    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayvafa/australian-phone-utils.git"
+  },
+  "keywords": [
+    "australian",
+    "telephone",
+    "phone",
+    "mobile",
+    "utils"
+  ],
+  "author": "Ray Vafa <raymond.vafa@gmail.com> (http://rayvafa.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rayvafa/australian-phone-utils/issues"
+  },
+  "homepage": "https://github.com/rayvafa/australian-phone-utils#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2016": "^6.16.0",
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-loader": "^1.6.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "webpack": "^1.13.2"
+  }
+}

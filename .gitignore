@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+
+# Distribution folder
+lib
+
+# Dependency directories
+node_modules
+
+# Editors
+.idea
+*.iml
